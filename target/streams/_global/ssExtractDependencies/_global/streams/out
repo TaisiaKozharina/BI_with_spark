@@ -1,0 +1,52 @@
+[error] sbt.librarymanagement.ResolveException: Error downloading org.vegas-viz:vegas-spark_2.11:{vegas-version}
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\taisija.kozarina\.ivy2\local\org.vegas-viz\vegas-spark_2.11\{vegas-version}\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/vegas-viz/vegas-spark_2.11/{vegas-version}/vegas-spark_2.11-{vegas-version}.pom
+[error] 	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:247)
+[error] 	at lmcoursier.CoursierDependencyResolution.$anonfun$update$35(CoursierDependencyResolution.scala:216)
+[error] 	at lmcoursier.CoursierDependencyResolution$$Lambda$3939/27483646.apply(Unknown Source)
+[error] 	at scala.util.Either$LeftProjection.map(Either.scala:573)
+[error] 	at lmcoursier.CoursierDependencyResolution.update(CoursierDependencyResolution.scala:216)
+[error] 	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:60)
+[error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:52)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:102)
+[error] 	at sbt.internal.LibraryManagement$$$Lambda$2776/3238195.apply(Unknown Source)
+[error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:69)
+[error] 	at sbt.util.Tracked$$$Lambda$2737/32067375.apply(Unknown Source)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$20(LibraryManagement.scala:115)
+[error] 	at sbt.internal.LibraryManagement$$$Lambda$2778/13317552.apply(Unknown Source)
+[error] 	at scala.util.control.Exception$Catch.apply(Exception.scala:228)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:115)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:96)
+[error] 	at sbt.internal.LibraryManagement$$$Lambda$2772/12588108.apply(Unknown Source)
+[error] 	at sbt.util.Tracked$.$anonfun$inputChanged$1(Tracked.scala:150)
+[error] 	at sbt.util.Tracked$$$Lambda$2584/13823676.apply(Unknown Source)
+[error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:129)
+[error] 	at sbt.Classpaths$.$anonfun$updateTask0$5(Defaults.scala:2950)
+[error] 	at sbt.Classpaths$$$Lambda$1372/28521364.apply(Unknown Source)
+[error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+[error] 	at scala.Function1$$Lambda$1006/18860911.apply(Unknown Source)
+[error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+[error] 	at sbt.internal.util.$tilde$greater$$Lambda$2381/16785585.apply(Unknown Source)
+[error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:67)
+[error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:281)
+[error] 	at sbt.Execute$$Lambda$2399/4077160.apply(Unknown Source)
+[error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:19)
+[error] 	at sbt.Execute.work(Execute.scala:290)
+[error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:281)
+[error] 	at sbt.Execute$$Lambda$2389/12632243.apply(Unknown Source)
+[error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:178)
+[error] 	at sbt.ConcurrentRestrictions$$anon$4$$Lambda$2396/8000182.apply(Unknown Source)
+[error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:37)
+[error] 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[error] 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+[error] 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[error] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+[error] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+[error] 	at java.lang.Thread.run(Thread.java:745)
+[error] (ssExtractDependencies) sbt.librarymanagement.ResolveException: Error downloading org.vegas-viz:vegas-spark_2.11:{vegas-version}
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\taisija.kozarina\.ivy2\local\org.vegas-viz\vegas-spark_2.11\{vegas-version}\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/vegas-viz/vegas-spark_2.11/{vegas-version}/vegas-spark_2.11-{vegas-version}.pom

@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/BI_spark.iml" filepath="$PROJECT_DIR$/.idea/modules/BI_spark.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test2-build.iml" filepath="$PROJECT_DIR$/.idea/modules/test2-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BI_spark-build.iml" filepath="$PROJECT_DIR$/.idea/modules/BI_spark-build.iml" />
     </modules>
   </component>
 </project>

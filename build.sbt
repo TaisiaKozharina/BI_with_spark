@@ -9,6 +9,8 @@ libraryDependencies ++= Seq(
   "org.apache.spark" %% "spark-sql" % sparkVersion
 )
 
+//libraryDependencies += "org.vegas-viz" %% "vegas-spark" % "{vegas-version}" -- MIGHT USE LATER FOR VISUALS
+
 lazy val root = (project in file("."))
   .settings(
     name := "BI_spark"
