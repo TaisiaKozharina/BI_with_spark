@@ -1,3 +1,4 @@
+import Duplicates._
 import Preprocessing._
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.{SparkConf, SparkContext}
@@ -40,11 +41,16 @@ object Main {
 
 
     /* --------- PROCESSING DATA (testing optimality of different methods) --------- */
-    val processed_df1 = preprocess(trans_df, user_df)
-    val processed_df2 = preprocess_optimized_m1(trans_df, user_df)
-    val processed_df3 = preprocess_optimized_m2(trans_df, user_df)
-    val processed_df4 = preprocess_optimized_m3(trans_df, user_df)
+//    val processed_df1 = preprocess(trans_df, user_df)
+//    val processed_df2 = preprocess_optimized_m1(trans_df, user_df)
+//    val processed_df3 = preprocess_optimized_m2(trans_df, user_df)
+//    val processed_df4 = preprocess_optimized_m3(trans_df, user_df)
     val processed_df5 = preprocess_optimal(trans_df, user_df)
+
+
+    /*----------------- DUPLICATE DETECTION ---------------*/
+    deduplicate(processed_df5)
+
 
     spark.stop()
   }
