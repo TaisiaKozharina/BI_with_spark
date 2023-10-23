@@ -1,2 +1,5 @@
-[debug] downloaded https://repo1.maven.org/maven2/org/vegas-viz/vegas-spark_2.11/{vegas-version}/vegas-spark_2.11-{vegas-version}.pom
-[debug] downloaded https://repo1.maven.org/maven2/org/vegas-viz/vegas-spark_2.11/{vegas-version}/vegas-spark_2.11-{vegas-version}.pom.sha1
+[debug] downloaded https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-logs/1.12.61/aws-java-sdk-logs-1.12.61.pom
+[debug] downloaded https://repo1.maven.org/maven2/joda-time/joda-time/2.8.1/joda-time-2.8.1.pom
+[debug] downloaded https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-logs/1.12.61/aws-java-sdk-logs-1.12.61.jar
+[debug] downloaded https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-logs/1.12.61/aws-java-sdk-logs-1.12.61-sources.jar
+[debug] downloaded https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-logs/1.12.61/aws-java-sdk-logs-1.12.61-javadoc.jar

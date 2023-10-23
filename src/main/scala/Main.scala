@@ -19,9 +19,8 @@ object Main {
       .appName("BI_project")
       .getOrCreate()
 
+
     spark.sparkContext.setLogLevel("WARN")
-
-
 
     /* ------- READING INPUT DATAFRAME --------- */
 
@@ -34,13 +33,19 @@ object Main {
       .option("delimiter", ";")
       .csv("src/resources/users.csv")
 
-//    trans_df.printSchema()
-//    println("Trans rows: ", trans_df.count())
-//    user_df.printSchema()
-//    println("User rows: ", user_df.count())
+
+    println("="*30)
+    print("INPUT DATA'S STRUCTURE:\n")
+    trans_df.printSchema()
+    println(f"Transaction data row count: ${trans_df.count()}")
+    user_df.printSchema()
+    println(f"User data row count: ${user_df.count()}")
 
 
-    /* --------- PROCESSING DATA (testing optimality of different methods) --------- */
+
+    /* --------- PROCESSING DATA --------- */
+    println("=" * 30)
+    print("TESTING OPTIMALITY OF DIFFERENT PREPROCESSING METHODS:\n")
 //    val processed_df1 = preprocess(trans_df, user_df)
 //    val processed_df2 = preprocess_optimized_m1(trans_df, user_df)
 //    val processed_df3 = preprocess_optimized_m2(trans_df, user_df)
@@ -49,10 +54,15 @@ object Main {
 
 
     /*----------------- DUPLICATE DETECTION ---------------*/
-    deduplicate(processed_df5)
+    println("=" * 30)
+    print("DEDUPLICATION TASK:\n")
+    val clean = deduplicate(processed_df5)
 
+    /*--------- (Optional) SAVING DATA TO CSV ------------*/
+    //clean.write.mode(SaveMode.Overwrite).format("csv").save("../resources/out.csv")
 
+    println("=" * 30)
+    println("END ON TASK EXECUTION")
     spark.stop()
   }
-
 }
