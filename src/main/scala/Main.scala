@@ -46,10 +46,10 @@ object Main {
     /* --------- PROCESSING DATA --------- */
     println("=" * 30)
     print("TESTING OPTIMALITY OF DIFFERENT PREPROCESSING METHODS:\n")
-//    val processed_df1 = preprocess(trans_df, user_df)
-//    val processed_df2 = preprocess_optimized_m1(trans_df, user_df)
-//    val processed_df3 = preprocess_optimized_m2(trans_df, user_df)
-//    val processed_df4 = preprocess_optimized_m3(trans_df, user_df)
+    val processed_df1 = preprocess(trans_df, user_df)
+    val processed_df2 = preprocess_optimized_m1(trans_df, user_df)
+    val processed_df3 = preprocess_optimized_m2(trans_df, user_df)
+    val processed_df4 = preprocess_optimized_m3(trans_df, user_df)
     val processed_df5 = preprocess_optimal(trans_df, user_df)
 
 
